@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>SLM Chat(Only JS)</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    textarea, button { width: 100%; margin: .5rem 0; }
+    #response { white-space: pre-wrap; background: #f9f9f9; padding: 1rem; border-radius: .5rem; }
+  </style>
+</head>
+<body>
+    <script>
+        
+const tokens = [
+  "hi",
+  "how",
+  "are",
+  "you",
+  "doing",
+  "fine",
+  "how",
+  "about",
+  "yourself",
+  "fine",
+  "how",
+  "about",
+  "yourself",
+  "pretty",
+  "good",
+  "thanks",
+  "for",
+  "asking",
+  "pretty",
+  "good",
+  "thanks"
+]
+    </script>
+    <script src="SLMai.js"></script>
+    
+  <h1>امولاتور SLM ساده</h1>
+  <textarea id="userInput" rows="3" placeholder="متن خود را وارد کنید..."></textarea>
+  <button onclick="generate()">تولید پاسخ</button>
+  <h2>پاسخ:</h2>
+  <div id="response"></div>
+
+
+</body>
+</html>

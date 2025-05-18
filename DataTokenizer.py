@@ -10,8 +10,6 @@ def load_text(path):
 def tokenize(text):
     # Lowercase
     text = text.lower()
-    # Replace non-word chars with spaces
-    text = re.sub(r"[^\wآ-ی]", " ", text)
     # Split on whitespace
     tokens = text.split()
     return tokens
